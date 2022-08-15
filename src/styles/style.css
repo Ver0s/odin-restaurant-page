@@ -112,7 +112,6 @@ header {
 
 /* MAIN SECTION */
 main {
-    /* background-color: rgb(255, 250, 245); */
     height: calc(100vh - 72px);
     display: grid;
     place-items: center;
@@ -120,7 +119,7 @@ main {
 
 .main-container {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
 }
 
@@ -129,7 +128,7 @@ main {
 }
 
 .hero-text {
-    font-size: 6rem;
+    font-size: 8rem;
     line-height: 1;
     margin-bottom: 1.5rem;
 }
