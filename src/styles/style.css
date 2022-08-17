@@ -7,42 +7,42 @@
 
 @font-face {
     font-family: 'Exo 2';
-    src: url('../fonts/Exo2-Regular.ttf');
+    src: url('../assets/fonts/Exo2-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Exo 2';
-    src: url('../fonts/Exo2-Italic.ttf');
+    src: url('../assets/fonts/Exo2-Italic.ttf');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Exo 2';
-    src: url('../fonts/Exo2-SemiBold.ttf');
+    src: url('../assets/fonts/Exo2-SemiBold.ttf');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Exo 2';
-    src: url('../fonts/Exo2-SemiBoldItalic.ttf');
+    src: url('../assets/fonts/Exo2-SemiBoldItalic.ttf');
     font-weight: 600;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Exo 2';
-    src: url('../fonts/Exo2-ExtraBold.ttf');
+    src: url('../assets/fonts/Exo2-ExtraBold.ttf');
     font-weight: 800;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Exo 2';
-    src: url('../fonts/Exo2-ExtraBoldItalic.ttf');
+    src: url('../assets/fonts/Exo2-ExtraBoldItalic.ttf');
     font-weight: 800;
     font-style: italic;
 }
