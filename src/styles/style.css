@@ -110,6 +110,10 @@ header {
     font-size: 1.25rem;
 }
 
+.nav-items li {
+    cursor: pointer;
+}
+
 /* MAIN SECTION */
 main {
     height: calc(100vh - 72px);

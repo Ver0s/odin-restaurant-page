@@ -31,14 +31,17 @@ function navbar() {
     })
     const homeLi = createElement({
         tag: 'li',
+        id: 'home',
         textContent: 'Home',
     })
     const menuLi = createElement({
         tag: 'li',
+        id: 'menu',
         textContent: 'Menu',
     })
     const contactLi = createElement({
         tag: 'li',
+        id: 'contact',
         textContent: 'Contact',
     })
 
@@ -53,4 +56,4 @@ function navbar() {
     return header;
 }
 
-export { navbar }
+export default navbar

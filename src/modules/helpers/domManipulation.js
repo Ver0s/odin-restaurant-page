@@ -15,4 +15,4 @@ function appendChildren(parent, ...children) {
     return parent;
 }
 
-export { createElement, appendChildren}
+export { createElement, appendChildren }
