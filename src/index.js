@@ -1,5 +1,27 @@
-import { navbar } from "./modules/components/navbar";
-import { home } from "./modules/pages/home";
+import navbar from "./modules/components/navbar";
+import homePage from "./modules/pages/home";
+import contactPage from "./modules/pages/contact"
+import menuPage from "./modules/pages/menu"
+import { appendChildren } from "./modules/helpers/domManipulation";
 
-document.querySelector('#content').appendChild(navbar());
-document.querySelector('#content').appendChild(home());
+// initial page load
+const content = document.querySelector('#content');
+appendChildren(content, navbar(), homePage());
+
+const navItems = document.querySelector('.nav-items').childNodes;
+navItems.forEach(page => {
+    page.addEventListener('click', () => handleNavigation(page.textContent.toLowerCase()))
+});
+
+function handleNavigation(page) {
+    // put this in another function or somehting idk XD
+    // clear everything except navbar
+    Array.from(content.children).splice(1).forEach(item => item.remove());
+    if (page === 'contact') {
+        content.appendChild(contactPage())    
+    } else if (page === 'menu') {
+        content.appendChild(menuPage())
+    } else {
+        content.appendChild(homePage());
+    }
+}
