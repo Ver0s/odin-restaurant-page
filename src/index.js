@@ -14,7 +14,6 @@ navItems.forEach(page => {
 });
 
 function handleNavigation(page) {
-    // put this in another function or somehting idk XD
     // clear everything except navbar
     Array.from(content.children).splice(1).forEach(item => item.remove());
     if (page === 'contact') {
